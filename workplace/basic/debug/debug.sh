@@ -3,7 +3,7 @@ DEBUG=$CURRENT"";
 cd $DEBUG;
 ESC=$(printf '\033');
 printf "${ESC}[31m%s${ESC}[m\n" '---C++ Compile---';
-docker exec -it gcc_training g++ workplace/basic/debug/debug.cpp -o debug
+docker exec -it gcc_training g++ workplace/basic/src/02_variables_and_memory_addresses.cpp -o debug
 # printf "${ESC}[33m%s${ESC}[m\n" '---Input---';
 # echo $(<sample_input.txt);
 printf "${ESC}[33m%s${ESC}[m\n" '---Output---';
