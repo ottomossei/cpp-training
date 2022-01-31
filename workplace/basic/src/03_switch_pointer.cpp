@@ -9,11 +9,11 @@ int main() {
     p=&a;
     show(a, b, *p);
     *p=300;
-    show(a, b,*p);
+    show(a, b, *p);
     p=&b;
-    show(a, b,*p);
+    show(a, b, *p);
     *p=400;
-    show(a, b,*p);
+    show(a, b, *p);
 
 }
 
