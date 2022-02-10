@@ -9,9 +9,10 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/workspaces/tes",
+      "cwd": "/workspaces/cpp-training",
       "environment": [],
-      "program": "/workspaces/tes/build/Debug/outDebug",
+      // "program": "/workspaces/cpp-training/build/Debug/outDebug",
+      "program": "${workspaceFolder}/workplace/basic/debug/debug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
