@@ -38,6 +38,5 @@ id:3,  name:C,  age:18
 1. Struct is function for defining data structures.
 2. typedef struct student student_data;
    it means that student_data is type of student.
-3. data[] is Structure Array. 
+3. data[] is Structure Array.
 */
-
