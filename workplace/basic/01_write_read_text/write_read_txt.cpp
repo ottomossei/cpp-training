@@ -21,5 +21,5 @@ int main()
 1.  exit(1) : Abnormal termination of the program
 2.  if (file ==NULL){
     This program is executed, for example,
-    when the target directory does not exist or when you do not have permission to browse it.
+    when the target directory does not exist or when you do NOT have permission to read it.
 */
