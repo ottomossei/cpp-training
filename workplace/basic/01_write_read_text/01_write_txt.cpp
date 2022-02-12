@@ -3,7 +3,7 @@
 int main()
 {
     FILE *file;
-    file = fopen("./sample_write.txt", "w");
+    file = fopen("./data/sample_write.txt", "w");
     if (file == NULL)
     {
         printf("Don't open this file.");
